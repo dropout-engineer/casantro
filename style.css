@@ -1,0 +1,555 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none; /*scroll bar hatane k liye */
+}
+
+header {
+  background-color: #fff;
+  height: 14vh;
+}
+
+.login {
+  background-image: url("https://images.unsplash.com/photo-1556912167-f556f1f39fdf?q=80&w=1781&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-height {
+  height: 635px;
+}
+
+.intro {
+  font-family: "Lora", serif;
+  font-size: 56px;
+  line-height: 63px;
+  color: #0b3538;
+}
+
+.form-boundary-second h2 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 36px;
+  font-family: "Lora", serif;
+  color: #d3925d;
+}
+
+.form-boundary-one {
+  margin-top: 200px;
+  border: none;
+  border-top: 0;
+  width: 450px;
+  height: 400px;
+  position: relative;
+  background-color: #0b3538;
+}
+
+.form-boundary-one::before {
+  content: "";
+  border: none;
+  border-radius: 50% 50% 0 0;
+  height: 450px;
+  width: 450px;
+  position: absolute;
+  top: -210px;
+  left: 0px;
+  border-bottom: 0;
+  background-color: #0b3538;
+}
+
+form {
+  color: white;
+  font-family: "Roboto Serif", serif;
+}
+
+.form-boundary-second {
+  width: 350px;
+  height: 300px;
+  position: relative;
+  border: 2px solid black;
+}
+
+.form-boundary-second::before {
+  content: "";
+  border: 2px solid black;
+  border-radius: 50% 50% 0 0;
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  top: -210px;
+  left: -1px;
+  border-bottom: 0;
+}
+
+.heading-login {
+  position: absolute;
+  top: -172px;
+}
+
+.download {
+  position: absolute;
+  top: 325px;
+}
+
+.download > .btn {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #d3925d;
+  min-height: 48px;
+  min-width: 98px;
+  padding: 14px 24px;
+  border-radius: 1000px;
+}
+
+/* poetry */
+
+.poetry h2,
+p {
+  text-align: center;
+}
+
+.poetry h2 {
+  color: #d3925d;
+  font-size: 40px;
+  font-family: fantasy;
+  margin-top: 62px;
+  margin-bottom: 30px;
+}
+
+.poetry p {
+  color: #525252;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 75px;
+}
+
+/* curated */
+
+.curated {
+  background-color: #d3925d;
+  height: 60vh;
+  color: #f6f7f8;
+}
+
+.right-content {
+  width: 38%;
+}
+
+.right-content h1 {
+  font-size: 40px;
+  font-family: "Lora", serif;
+}
+
+.right-content p {
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: left;
+  line-height: 1.75;
+  font-weight: 400;
+}
+
+/* section The Diamante Collection */
+
+.diamante h2 {
+  font-size: 40px;
+  font-family: "Lora", serif;
+  position: relative;
+  margin: 70px 0 170px;
+}
+
+.diamante h2::after {
+  content: "A curation of luxury finishes";
+  position: absolute;
+  top: 50px;
+  font-size: 16px;
+  font-family: "Lora", serif;
+  margin-top: 20px;
+  color: #d3925d;
+}
+
+.main-collection {
+  margin-left: 140px;
+}
+
+.image img {
+  width: 250px;
+}
+
+.image-description {
+  width: 300px;
+  font-size: 16px;
+  color: #525251;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.75;
+  text-align: start;
+  margin-top: 35px;
+}
+
+.image-margin {
+  margin-top: 85px;
+}
+
+.download-catalogue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  padding-bottom: 100px;
+}
+
+.download-catalogue > .btn {
+  color: #f6f7f8;
+  font-size: 18px;
+  background-color: #d3925d;
+  padding: 14px 24px;
+  border-radius: 1000px;
+  font-weight: 700;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* The Diamante Expressions Collection */
+
+.expressions-collection h2 {
+  font-size: 40px;
+  font-weight: 300;
+  font-family: "Lora", serif;
+  position: relative;
+  margin: 70px 0 100px;
+}
+
+.expressions-collection h2::after {
+  content: "Luxury made personal";
+  position: absolute;
+  top: 50px;
+  font-size: 16px;
+  font-family: "Lora", serif;
+  margin-top: 20px;
+  color: #d3925d;
+}
+
+.expressions-collection p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #5a595c;
+  text-align: center;
+  line-height: 1.125;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallary-expressions-collection {
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.expressions-collection .image-left {
+  margin-left: 180px;
+}
+
+.expressions-collection .image-left .first-second-image {
+  width: 118%;
+  margin-left: -20px;
+}
+
+.expressions-collection .image-medium {
+  margin-left: 70px;
+}
+
+.expressions-collection .image-medium .third-fourth-image {
+  width: 84%;
+  margin-left: -20px;
+}
+
+.expressions-collection .image-right {
+  margin-left: -40px;
+}
+
+.expressions-collection .image-right .fifth-sixth-image {
+  width: 64%;
+  margin-left: -20px;
+}
+
+.expressions-collection .image img {
+  width: 250px;
+}
+
+.expressions-collection .image-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5a595c;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.75;
+  text-align: start;
+  margin-top: 35px;
+}
+
+.expressions-collection .image-margin {
+  margin-top: 55px;
+}
+
+.about-collection p {
+  font-size: 20px;
+  font-family: "Lora", serif;
+  color: rgba(33, 30, 31, 1);
+  line-height: 0.875;
+}
+
+.expressions-collection-catalogue {
+  margin-top: 40px;
+  padding-bottom: 10px;
+}
+
+/* rubino collection */
+
+.gallary-rubin-collection {
+  margin-top: 100px;
+}
+
+.rubino-collection {
+  background-color: rgba(247, 231, 223, 0.3);
+  padding-bottom: 70px;
+}
+
+.rubino-collection h2 {
+  font-size: 40px;
+  font-family: "Lora", serif;
+  position: relative;
+  margin: 70px 0 110px;
+  padding-top: 40px;
+}
+
+.rubino-collection h2::after {
+  content: "Luxury curated from around the world";
+  position: absolute;
+  top: 50px;
+  font-size: 18px;
+  font-family: "Lora", serif;
+  margin-top: 60px;
+  color: #d3925d;
+}
+
+.rubino-collection p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #5a595c;
+  text-align: center;
+  line-height: 1.125;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.rubino-collection .image-left {
+  margin-left: 110px;
+}
+
+.rubino-collection .image-left .first-image {
+  /* width: 118%; */
+  /* margin-left: -20px; */
+}
+
+.rubino-collection .image-medium {
+  margin-left: 40px;
+}
+
+.rubino-collection .image-medium .second-image {
+  width: 84%;
+  /* margin-left: -20px; */
+}
+
+.rubino-collection .image-right {
+  margin-left: -25px;
+}
+
+.rubino-collection .image-right .third-image {
+  /* width: 64%; */
+  /* margin-left: -20px; */
+}
+
+.rubino-collection .image img {
+  width: 310px;
+}
+
+.rubino-collection .image-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5a595c;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.75;
+  text-align: start;
+  margin-top: 35px;
+}
+
+.rubino-collection .about-collection {
+  margin-top: 50px;
+}
+
+.rubino-collection .about-collection p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Lora", serif;
+  color: rgba(33, 30, 31, 1);
+  line-height: 0.875;
+}
+
+.rubino-collection .expressions-collection-catalogue {
+  margin-top: 40px;
+  padding-bottom: 10px;
+}
+
+/* Our Products */
+
+.our-products {
+  background-color: rgba(11, 53, 56, 1);
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f6f7f8;
+}
+
+.product p {
+  font-size: 12px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.product-heading {
+  margin-top: 50px;
+}
+
+.product-heading h2 {
+  font-size: 40px;
+  font-family: "Lora", serif;
+}
+
+.product-image {
+  margin-top: 30px;
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.product-image img {
+  width: 100%;
+}
+
+/* location */
+
+.location {
+  height: 100vh;
+}
+
+.location-services {
+  padding: 50px 0;
+}
+
+.location .image img {
+  width: 75%;
+  margin-left: 120px;
+}
+
+.right {
+  margin-top: 45px;
+  margin-left: 5px;
+}
+
+.right .heading-one p:nth-child(1) {
+  font-size: 40px;
+  font-family: "Lora", serif;
+  color: rgba(33, 30, 31, 1);
+  font-weight: 400;
+  line-height: 1.125;
+  text-align: left;
+}
+
+.paragraph p {
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(33, 30, 31, 1);
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.location .download-catalogue {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin-top: 30px;
+  /* padding-bottom: 100px; */
+}
+
+.location .download-catalogue > .btn {
+  color: #f6f7f8;
+  font-size: 18px;
+  background-color: #d3925d;
+  padding: 8px 18px;
+  border-radius: 1000px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.location .map-button {
+  margin-top: 50px;
+}
+
+.location .map-button > .btn {
+  color: #f6f7f8;
+  font-size: 18px;
+  background-color: #d3925d;
+  padding: 8px 18px;
+  border-radius: 1000px;
+  font-weight: bold;
+  line-height: 1.5;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* footer */
+
+.footer {
+  background-color: #d3925d;
+}
+
+.footer .main-part {
+    padding: 50px 0;
+}
+
+.footer .main-part p:nth-child(1) {
+  font-size: 40px;
+  font-family: "lora", sans-serif;
+  color: rgba(246, 247, 248, 1);
+}
+
+
+.footer .main-part p:nth-child(2) {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(246, 247, 248, 1);
+    line-height: 1.5;
+  }
+
+ .footer  div:nth-child(2){
+    text-align: center;
+    background-color: rgba(246, 247, 248, 1);
+    padding: 30px 0;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+
+
+
+ @media screen and  (max-width: 576px){
+    
+ }
